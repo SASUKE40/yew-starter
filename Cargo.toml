@@ -1,0 +1,18 @@
+[package]
+name = "yew-starter"
+description = "A template for starting a Yew."
+version = "0.1.0"
+authors = ["shilinzhu <shilinzhu@tencent.com>"]
+categories = ["gui", "wasm", "web-programming"]
+keywords = ["yew", "wasm", "wasm-bindgen", "web", "starter", "template"]
+edition = "2018"
+readme = "README.md"
+repository = "https://github.com/SASUKE40/yew-starter"
+license = "MIT"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+wasm-bindgen = "0.2"
+yew = "0.10.0"

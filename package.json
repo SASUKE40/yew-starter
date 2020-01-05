@@ -1,0 +1,32 @@
+{
+  "name": "yew-starter",
+  "version": "1.0.0",
+  "description": "A template for starting a Yew.",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SASUKE40/yew-starter.git"
+  },
+  "keywords": [
+    "yew",
+    "wasm",
+    "wasm-bindgen",
+    "web",
+    "starter",
+    "template"
+  ],
+  "author": "shilinzhu <shilinzhu@tencent.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SASUKE40/yew-starter/issues"
+  },
+  "homepage": "https://github.com/SASUKE40/yew-starter#readme",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "parcel-plugin-wasm.rs": "^1.2.15"
+  }
+}
