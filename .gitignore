@@ -13,3 +13,4 @@ node_modules
 pkg
 .cache
 dist
+.DS_Store
