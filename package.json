@@ -27,6 +27,6 @@
   "homepage": "https://github.com/SASUKE40/yew-starter#readme",
   "devDependencies": {
     "parcel-bundler": "^1.12.4",
-    "parcel-plugin-wasm.rs": "^1.2.15"
+    "parcel-plugin-wasm.rs": "^1.2.16"
   }
 }

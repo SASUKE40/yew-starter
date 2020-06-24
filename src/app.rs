@@ -15,7 +15,12 @@ impl Component for App {
     fn update(&mut self, _msg: Self::Message) -> ShouldRender {
         true
     }
-    fn view(&self) -> Html<Self> {
+
+    fn change(&mut self, _props: Self::Properties) -> ShouldRender {
+        true
+    }
+
+    fn view(&self) -> Html {
         html! {
             <p>{ "Hello world!" }</p>
         }
